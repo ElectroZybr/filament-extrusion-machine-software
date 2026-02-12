@@ -23,6 +23,10 @@ Embedded software for controlling a filament production machine based on ESP32.
 - Main loop for UI, logic and PID updates
 - Finite State Machine: Wait → Prepare → Work → Done / Error
 
+## Custom Libraries
+- **LcdManager** – reusable embedded UI/menu framework for I2C LCD + rotary encoder
+- **DigitalMicrometer** – hardware abstraction layer for micrometer sensor
+
 ## Technologies
 - C++ / Arduino / ESP-IDF style
 - FreeRTOS
